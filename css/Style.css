@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+  }
+  /* Glbal Class */
+  p{
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 15px;
+  }
+  section{
+    padding: 75px 0px;
+    text-align: center;
+  }
+  .writing-part{
+    margin-bottom: 30px;
+  }
+  .box-part{
+
+  }
+  .heading{
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 35px;
+    letter-spacing: 1.5px;
+  }
+  .sub-heading{
+    font-size: 25px;
+    text-transform: uppercase;
+    line-height: 25px;
+    font-weight: 600;
+    margin: 10px 0px;
+  }
+  .underline{
+    border-top: 5px solid rgb(0, 0, 0, 0.3);
+    width: 5%;
+    margin: 10px auto;
+  }
+  .des{
+    font-size: 17px; 
+    color: #29c0f1; 
+    margin-top: 10px;
+    text-transform: uppercase;
+  }
+  .container{
+    width: 90%;
+    margin: auto;
+}
+  .row{
+      width: 100%;
+    float: left;
+  }
+  [class*="col-"] {
+    float: left;
+  }
+  .col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {
+    width: 50%;
+}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+  header{
+      background-color: #87509c;
+      color: #fff;
+  }
+nav{
+  padding: 10px 0px;
+}
+.logo-part{
+
+}
+.menu-part{
+  padding: 12px 0px;
+  text-align: right;
+}
+.menu-part li{
+  display: inline-block;  
+}
+.menu-part li a{
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin: 0px 5px;
+  padding: 7px;
+}
+.menu-part li a:hover{
+  background-color: rgba(33, 12, 12, 0.3);
+  border-radius: 5px;
+}
+.hero-part{
+text-align: center;
+padding: 150px;
+}
+.hero-part h1{
+  font-size: 45px;
+  line-height: 45px;
+}
+.hero-part button{
+  width: 200px;
+  padding: 10px;
+  font-size: 17px;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-top: 35px;
+  background-color: #eb7d4b;
+  color: #fff;
+  border-radius: 5px;
+}
+  #service{
+      background-color: #17c2a4;
+      color: #fff;
+  }
+  .service-box{    
+    padding: 0px 30px;
+  }
+  .service-box img{
+    height: 150px;
+  }
+  #team{
+    background-color: #e7f1f8;
+    color: #3c4761;
+  }
+  .team-box{
+    padding: 25px;
+  }
+  .team-icons{
+    margin-top: 10px;
+  }
+
+  .team-icons i{
+    font-size: 20px;
+    background-color: #bdd1df;
+    color: #fff;
+    padding: 10px;
+    width: 45px;
+    border-radius: 100%;
+    margin: 0px 5px;
+    transition: ease-in-out 0.5s;
+    cursor: pointer;
+  }
+  .team-icons i:hover{
+    background-color: #87509c;
+  }
+  #skills{
+    background-color: #ffffff;
+    color: black;
+  }
+  .skills-box-part{
+    padding: 10px;
+  }
+  #portfolio{
+    background-color: #ffdd99;
+    color: black;
+  }
+  .portfolio-box-part{
+    margin-top: 2px 0px;
+  }
+  #about{
+    background-color: #d74680;
+    color: #fff;
+  }
+  #contact{
+    background-color: #3c5499;
+    color: #fff;
+  }
+  .massage{
+    font-size: 15px;
+    width: 600;
+    padding: 10px;
+    background-color: #273a71;
+  }
+ #footer{
+  
+ }
+ .inner-footer{
+  margin: 0px 5px;
+  padding: 7px;
+  background-color: #344b8e;
+  color: #fff;
+ }
+ .quick-items{
+   display: flex;
+ }
+ .quick-items ul{
+   list-style-type: none;
+ }
+ .quick-items a{
+   text-decoration: none;
+   padding: 0px 10px;
+ }
